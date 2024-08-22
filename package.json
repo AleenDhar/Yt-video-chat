@@ -9,18 +9,41 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/google": "^0.0.30",
+    "@google/generative-ai": "^0.17.0",
+    "@hookform/resolvers": "^3.9.0",
+    "@pinecone-database/doc-splitter": "^0.0.1",
+    "@pinecone-database/pinecone": "^3.0.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.1",
+    "@types/md5": "^2.3.5",
+    "ai": "^3.3.15",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "langchain": "^0.2.16",
+    "lucide-react": "^0.429.0",
+    "md5": "^2.3.0",
+    "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.6"
+    "react-hook-form": "^7.52.2",
+    "react-textarea-autosize": "^8.5.3",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "youtube-toolkit": "^1.0.5",
+    "youtube-transcript": "^1.2.1",
+    "youtubei": "^1.5.4",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.6",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.6"
+    "typescript": "^5"
   }
 }
